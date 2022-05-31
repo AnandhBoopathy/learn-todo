@@ -1,0 +1,22 @@
+body {
+    background: purple
+}
+.container {
+    max-width: 400px;
+}
+input[type=text],
+input[type=text]:focus {
+    color:aliceblue;
+    border: none;
+    background: rgba(0,0,0,0.5);
+    max-width: 400px;
+}
+.myctodos li {
+    background: rgb(189, 48, 189);
+}
+.mycdelete {
+    cursor: pointer;
+}
+.filtered {
+    display: none !important;
+}

@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="todo.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "container">
+
+        <!--        HEADING      -->
+
+        <header class = "text-center text-light my-4">    
+            <h1 class = "mb-4">MY TODO List</h1>
+            <form class = "search">
+                <input class = "form-control m-auto" type = "text" name = "search" placeholder = "Search Todo" />
+            </form>
+        </header>
+
+        <!--     CONTENTS FOR TODOS   -->
+
+        <ul class = "list-group mx-auto text-light myctodos">
+            <li class = "list-group-item d-flex justify-content-between align-items-center">
+                <span>My first todo</span>
+                <i class="far fa-trash-alt mycdelete"></i>
+            </li>
+            <li class = "list-group-item d-flex justify-content-between align-items-center">
+                <span>My second todo</span>
+                <i class="far fa-trash-alt mycdelete"></i>
+            </li>
+            <li class = "list-group-item d-flex justify-content-between align-items-center">
+                <span>My third todo</span>
+                <i class="far fa-trash-alt mycdelete"></i>
+            </li>
+        </ul>
+        
+        <!--      ADDING TODOS FORM     -->
+
+        <form class =" text-center my-4 mycadd">
+            <label class = "text-light"> Add your todos...</label>
+            <input class = "form-control m-auto" type = "text" name = "add" />
+        </form>
+    </div>
+    <script src = "todo.js"></script>
+</body>
+</html>
